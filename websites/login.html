@@ -1,0 +1,70 @@
+<html>
+   <title>Login page</title> 
+<head>
+    <style>
+        body
+        {background:#7ACC7B;
+            padding-top: 90px;
+
+        }
+        .formm
+        {
+            width:300px ;
+            height:210px;
+            padding:40px 40px ;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius:6px;
+            box-shadow: 0 0 4px #1E6D1F;
+            text-align: center;
+            margin: auto;
+            background-color: white;
+        }
+        .logo {
+            background: url('kiit.png') no-repeat;
+            width: 80px;
+            border-radius:50px;
+            height: 80px;
+            background-size: 100%;
+            position: absolute;
+            top: 50px;
+            left: 600px;
+        }
+        button[type=submit] {
+            width: 140;
+            background-color: #3091F4;
+            color: white;
+            cursor: pointer;
+            padding: 5px;
+            border: none;
+            border-radius: 4px;
+            margin: 15px 75px;
+            display: inline-block;
+            font-size: 14px;
+
+        }
+    </style>
+</head>
+
+<body>
+    
+<div class="formm">
+    <div class="logo"></div>
+    <form name="transaction" action="/HTML/L2_12Jan22/index.html" method="post">
+        Login to KIIT<br><br>
+        Username*&nbsp;<input type="text" placeholder="username"  required><br><br>
+        Password*&nbsp;&nbsp;<input type="password" placeholder="password" required><br><center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Forget password?</center><br>
+        Year*
+    <input type="radio" name="year" value="data">1st
+    <input type="radio" name="year" value="data">2nd
+    <input type="radio" name="year" value="data">3rd
+    <input type="radio" name="year" value="data">4th<br><br>
+    <input type="checkbox"  name="remember">Remember me<br>
+    <button type="submit"><a href="/HTML/L2_12Jan22/index.html">Login</button>
+        <br>
+  
+
+    </form>
+</div>    
+
+</body>
+</html>

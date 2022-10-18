@@ -1,0 +1,49 @@
+
+body 
+{
+    padding: 10px;
+    background: white;
+}
+table
+{
+  background-color: gray;
+  border-radius: 4px;
+  padding: 20px;
+}
+td 
+{
+    border:0px;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+}
+.textview
+{  
+  width: 235px;  
+  font-size:small;  
+  padding: 10px;
+  border-radius: 4px;
+  background-color: white;  
+  }   
+p
+{
+   font-size: 30px;
+}
+.icon
+{
+  border: 0;
+  width: 50px;
+  height: 40px;
+  font-size: medium;
+  border-radius: 4px;
+  background-color: aquamarine;
+}
+.cal
+{
+  width: 115px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: medium;
+
+}
+     

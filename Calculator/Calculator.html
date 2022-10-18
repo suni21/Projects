@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="Calculator.css" rel="stylesheet">
+    <title>Calculator</title>
+    <script type="text/javascript" src="Cal.js"></script>
+</head>
+
+<body>
+    <center>
+        <p>Calculator</p>
+        <div class="Cal">
+            <table border="1x" width="10%" height="50%">
+                <tr>
+                    <td colspan="4"><input class="textview" type="text" id="result" disabled>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><input class="icon" type="button" value=". " onclick="show('.')"></td>
+                    <td align="center"><input class="icon" type="button" value=" &larr; " onclick="oneNumDel()"></td>
+                    <td align="center" colspan="2"><input class="cal" type="button" value="Clear" onclick="clearScreen()"> </td>
+                    
+                </tr>
+                <tr>
+                    <td align="center"><input class="icon" type="button" value="/ " onclick="show('/')"></td>
+                    <td align="center"><input class="icon" type="button" value=" 7 " onclick="show('7')"></td>
+                    <td align="center"><input class="icon" type="button" value=" 8 " onclick="show('8')"></td>
+                    <td align="center"><input class="icon" type="button" value=" 9 " onclick="show('9')"></td>
+
+                </tr>
+                <tr>
+                    <td align="center"><input class="icon" type="button" value="* " onclick="show('*')"></td>
+                    <td align="center"><input class="icon" type="button" value=" 4 " onclick="show('4')"></td>
+                    <td align="center"><input class="icon" type="button" value=" 5 " onclick="show('5')"></td>
+                    <td align="center"><input class="icon" type="button" value=" 6 " onclick="show('6')"></td>
+
+                </tr>
+                <tr>
+                    <td align="center"><input class="icon" type="button" value="- " onclick="show('-')"></td>
+                    <td align="center"><input class="icon" type="button" value=" 1 " onclick="show('1')"></td>
+                    <td align="center"><input class="icon" type="button" value=" 2 " onclick="show('2')"></td>
+                    <td align="center"><input class="icon" type="button" value=" 3 " onclick="show('3')"></td>
+                </tr>
+                <tr>
+                    <td align="center"><input class="icon" type="button" value=" + " onclick="show('+')"></td>
+                    <td align="center"><input class="icon" type="button" value=" 0 " onclick="show('0')"></td>
+                   
+                    <td align="center" colspan="2"><input class="cal" type="button" value=" = " onclick="equal()"></td>
+                </tr>
+            </table>
+    </center>
+   
+    </div>
+
+</body>
+
+</html>
