@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tracker.css">
+    <title>Covid Tracker</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <!-- <canvas id="canvas"></canvas> -->
+            <div class="mainImage">
+                <img class="covidFull" src="covid.png" alt="">
+                <img class="covidHalf" src="coronaHalf.png" alt="Covid Mobile">
+            </div>
+            <div class="left">
+                <p id="casses">Cases: <span class="cassesLabel"></span> </p>
+
+
+                <p id="deaths">Deaths: <span class="deathsLabel"></span> </p>
+
+                <p id="recovered">Recovered: <span class="recoveredLabel"></span> </p>
+            </div>
+            <div class="right">
+                <p>STAY</p>
+    
+                <div class="logo">
+                    <a href="https://www.covid19india.org/"><img src="icmr.png" alt=""></a>
+                </div>
+
+                <p>SAFE</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="tracker.js"></script>
+</body>
+</html>

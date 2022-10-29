@@ -1,0 +1,85 @@
+<html>
+<title>session1</title>
+
+<body>
+
+    //variable- container used to store information<br>
+    //string- set of characters <br>
+    //object- contains key&values/properties&methods <br><br>
+    <script>
+        //create variables
+        //method1
+        var name = "Suniti";
+        document.write(name);
+
+        document.write("<br>");//create space
+
+        //method2
+        var newName = new String("suniti");
+        document.write(newName);
+        document.write("<br>");
+
+        //create multiple variables using array
+        //methord1
+        var family = ["a", "b", "c", "d"]; //index form 0
+        document.write(family[0]);
+        document.write(family[1]);
+        document.write(family[2]);
+        document.write(family[3]);
+        document.write("<br>");
+
+        //method2
+        var newfamily=new Array("maa ","papa ","didi ","raj ");
+        document.write(newfamily[0]);
+        document.write(newfamily[1]);
+        document.write(newfamily[2]);
+        document.write(newfamily[3]);
+        document.write("<br>");
+        document.write(newfamily);
+        document.write("<br>");
+
+        //create object
+        //method1
+        var familyobj = { father: "a", mother: "b", brother: "c", sister: "d" };
+        document.write(familyobj.father);
+        document.write(familyobj.mother);
+        document.write(familyobj.brother);
+        document.write(familyobj.sister);
+        document.write("<br>");
+
+        //method2
+        // var obj = new Object();
+        // obj.name = "suniti";
+        // obj.id = 2006243;
+        // obj.car = "bmw";
+        // document.write(obj);
+        // console.log(obj);
+
+        //create function
+        function Person(name)
+        {
+            var age;
+        this.name=name;
+        this.talk=function()
+        {
+            alert("My name = "+this.name )
+        }
+
+        this.setage=function(argage){
+            age=argage;
+        }
+        this.getage=function()
+        {
+            return age;
+        }
+        }
+        var person=new Person("Suniti");
+        person.name;
+        person.talk();
+        person.setage(21);
+        person.getage();
+
+    </script>
+</body>
+
+</html>

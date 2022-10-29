@@ -1,0 +1,79 @@
+body{
+    /* background: url("background.jpg") no-repeat; */
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),#F18FD5),url(background.jpg);
+    background-size: cover;
+    background-position:center;
+    height:569px;
+    overflow: hidden;
+}
+
+.calendar{
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 5px 50px rgba(#000, 0.5);
+    overflow: hidden;
+}
+
+.cal_pic{
+    background-image: url("background.jpg");
+    position: relative;
+    height: 130px;
+    padding: 20px;
+    color: #fff;
+    text-shadow: 0 2px 2px rgba(#000, 0.2);
+    box-sizing: border-box;
+    font-family: 'Fuzzy Bubbles', cursive;
+    line-height: 5px;
+}
+h2 {
+    margin: 0;
+  }
+  
+  h3 {
+    margin: 0;
+    font-weight: 500;
+  }
+.cal_dates{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+   
+}
+.calendar__day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    font-weight: 600;
+    color:#009688;
+}
+.calendar__number {
+    height: 25px;
+    color: #262626;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cal_numberCurrent{
+    background-color: #841F1C;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
