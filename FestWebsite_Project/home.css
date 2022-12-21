@@ -1,0 +1,43 @@
+
+/* 2nd Page */
+
+.topnav {
+    background: linear-gradient(90deg, rgba(252,252,253,1) 0%, rgba(175,46,136,1) 0%, rgb(8, 8, 8) 100%);
+    overflow: hidden;
+    width: 99%;
+    text-align: right;
+  
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+   float:inline-start;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .page2{ 
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('festbackground.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+  }

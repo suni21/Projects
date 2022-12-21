@@ -1,0 +1,9 @@
+body {
+  overflow: hidden;
+}
+div {
+  position: absolute;
+  border-radius:50%;
+  left: 0;
+  top: 0;
+}
