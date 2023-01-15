@@ -1,0 +1,177 @@
+* {  
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+  background-color: whitesmoke;
+  width: 100%;
+  height: 90px;
+  position: fixed;
+     
+}
+
+.weblogo{
+  background-color: black;
+  width: 100%;
+
+}
+.moblogo{
+  display: none;
+
+}
+
+
+.nav-item a{
+  color: white;
+  margin-left: 20px;
+}
+.navbar-nav li{
+  padding: 0 5px;
+}
+.navbar-nav li a{
+  color: black !important;
+  float: right;
+}
+.login{
+    background-color: #eb8d00;
+    border-radius: 18px;
+    width: 88px;
+    height: 46px;
+}
+.about{
+    height: 570px;
+    background-color: #f7bc59;
+}
+/*.container{
+    height: 550px;
+}*/
+/*.elementor-shape-top{
+        top: -1px;
+        fill: var( --e-global-color-c0e6f48 )
+}   
+
+.elementor-shape{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    line-height: 0;
+    direction: ltr;
+}*/
+
+.row{
+    
+   
+    padding-top: 150px;
+
+}
+.us{
+    font-size: 75px;
+    color: #2b0b6c;
+    margin-top: 120px;
+}
+.ani{
+    background: fixed;
+    height: 350px;
+    width: 100%;
+}
+.story{
+    margin-top: 40px;
+    background-color: #fbdeac;
+}
+.card1{
+    height: 360px;
+    width: 480px;
+    margin-left: 200px;
+}
+.card1:hover {
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(2px, 2px) rotate(0deg); }
+ 
+}
+
+.card2{
+    height: 400px;
+    width: 500px;
+    margin-top: 50px;
+    margin-right: 420px;
+    padding: 50px;
+}
+.card3{
+    height: 400px;
+    width: 500px;
+    margin-top: 50px;
+    margin-right: 420px;
+    padding: 50px;
+    margin-bottom: 200px;
+}
+.card4{
+    height: 360px;
+    width: 480px;
+    margin-left: 200px;
+}
+.card4:hover {
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(2px, 2px) rotate(0deg); }
+ 
+}
+
+.message.img{
+        width: 400px;
+        height: 400px;
+
+    }
+.message h1{
+        font-size: 60px;
+}
+.message{
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-bottom: 200px;
+}
+
+.footer{
+  width: 100%;
+  height: 150px;
+  margin-top: 20px;
+
+}
+.footer{
+  /*background-color: #303030;*/
+  height: 50px;
+  width: 100%;
+}
+.footer ul li a i{
+  width: 50px;
+  height: 60px;
+  font-weight: 600;
+}
+
+
+.mainfooter{
+      height: 440px;
+      background: #fdf3e1;
+      padding: 30px;
+      color: black;
+    }
+
+  .textwidget img{
+      border-radius: 0 28px;
+      width: 40%;
+
+  }
+    
+
+

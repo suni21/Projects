@@ -5,7 +5,7 @@ link {
 }
 
 .origin {
-  background-color: #0b0b0b;
+  background-color: #78176a;
   background-size: 58px 58px;
   background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
   overflow: hidden;
@@ -18,12 +18,12 @@ link {
   align-items: center;
   width: 50%;
   height: 50%;
-  background-image: radial-gradient(ellipse 50% 35% at 50% 50%,
-      #6b1839,
+  background-image: radial-gradient(ellipse 10% 35% at 50% 50%,
+      #982e59,
       transparent);
   transform: translate(-50%, -50%);
   letter-spacing: 2;
-  left: 50%;
+  left: 30%;
   top: 50%;
   font-family: "Titan One", cursive;
   text-transform: uppercase;
@@ -350,8 +350,7 @@ link {
   margin: 0;
   position: absolute;
   top: 70%;
-  left: 43%;
-  text-decoration: none;
+  left: 24%;
   font-size: 30px;
   width: 150px;
   text-align: center;

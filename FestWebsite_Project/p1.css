@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+
+link {
+  display: none;
+}
+
+
+html {
+    height: 100%;
+    /* max-height: 600px; */
+    width: 1000px;
+    background-color: hsla(200,40%,30%,.4);
+    background-image:   
+      url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+      url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+      url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+    background-position: 
+      0 20%,
+      0 100%,
+      0 50%,
+      0 100%,
+      0 0;
+    background-size: 
+      3000px,
+      800px,
+      500px 200px,
+      1000px,
+      400px 260px;
+    animation: 50s para infinite linear;
+    }
+  
+  @keyframes para {
+    100% {
+      background-position: 
+        -5000px 20%,
+        -800px 95%,
+        500px 50%,
+        1000px 100%,
+        400px 0;
+      }
+    }
+
+    .sign {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+        background-image: radial-gradient(ellipse 10% 35% at 50% 50%,
+            #982e59,
+            transparent);
+        transform: translate(-50%, -50%);
+        letter-spacing: 2;
+        left: 30%;
+        top: 50%;
+        font-family: "Titan One", cursive;
+        text-transform: uppercase;
+        font-size: 6em;
+        color: #ffe6ff;
+        text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+          -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+          0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+        animation: shine 2s forwards, flicker 3s infinite;
+      }
+      
+      @keyframes blink {
+      
+        0%,
+        22%,
+        36%,
+        75% {
+          color: #ffe6ff;
+          text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+            -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+            0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+        }
+      
+        28%,
+        33% {
+          color: #ff65bd;
+          text-shadow: none;
+        }
+      
+        82%,
+        97% {
+          color: #ff2483;
+          text-shadow: none;
+        }
+      }
+      
+      .flicker {
+        animation: shine 2s forwards, blink 3s 2s infinite;
+      }
+      
+      .fast-flicker {
+        animation: shine 2s forwards, blink 10s 1s infinite;
+      }
+      
+      @keyframes shine {
+        0% {
+          color: #6b1839;
+          text-shadow: none;
+        }
+      
+        100% {
+          color: #ffe6ff;
+          text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+            -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+            0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+        }
+      }
+      
+      @keyframes flicker {
+        from {
+          opacity: 1;
+        }
+      
+        4% {
+          opacity: 0.9;
+        }
+      
+        6% {
+          opacity: 0.85;
+        }
+      
+        8% {
+          opacity: 0.95;
+        }
+      
+        10% {
+          opacity: 0.9;
+        }
+      
+        11% {
+          opacity: 0.922;
+        }
+      
+        12% {
+          opacity: 0.9;
+        }
+      
+        14% {
+          opacity: 0.95;
+        }
+      
+        16% {
+          opacity: 0.98;
+        }
+      
+        17% {
+          opacity: 0.9;
+        }
+      
+        19% {
+          opacity: 0.93;
+        }
+      
+        20% {
+          opacity: 0.99;
+        }
+      
+        24% {
+          opacity: 1;
+        }
+      
+        26% {
+          opacity: 0.94;
+        }
+      
+        28% {
+          opacity: 0.98;
+        }
+      
+        37% {
+          opacity: 0.93;
+        }
+      
+        38% {
+          opacity: 0.5;
+        }
+      
+        39% {
+          opacity: 0.96;
+        }
+      
+        42% {
+          opacity: 1;
+        }
+      
+        44% {
+          opacity: 0.97;
+        }
+      
+        46% {
+          opacity: 0.94;
+        }
+      
+        56% {
+          opacity: 0.9;
+        }
+      
+        58% {
+          opacity: 0.9;
+        }
+      
+        60% {
+          opacity: 0.99;
+        }
+      
+        68% {
+          opacity: 1;
+        }
+      
+        70% {
+          opacity: 0.9;
+        }
+      
+        72% {
+          opacity: 0.95;
+        }
+      
+        93% {
+          opacity: 0.93;
+        }
+      
+        95% {
+          opacity: 0.95;
+        }
+      
+        97% {
+          opacity: 0.93;
+        }
+      
+        to {
+          opacity: 1;
+        }
+      }
+      
+.nextpage {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 24%;
+    text-decoration: none;
+    font-size: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 25px;
+    font-style: italic;
+    color: #ffe6ff;
+    background-image: linear-gradient(rgb(197, 77, 145), rgb(8, 8, 8));
+  }
