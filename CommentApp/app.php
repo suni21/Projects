@@ -12,7 +12,7 @@
 <div class="center">
 <form action="" method="POST">
     <br><br>
-<p>"You could say things with colour and shapes that you could not say any other way - things you do not have words for."</p>
+<p>"You could say things that you could not say any other way - things you do not have words for."</p>
 <br>
    <h1 style="color:white;font-style:italic;font-family:lucida">Leave Us With A Comment :)</h1>
    <label> Name:
